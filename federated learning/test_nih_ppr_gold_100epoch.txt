@@ -1,0 +1,51 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+/DATA/chowdari1/saved_models/nih_ppr_gold(100epoch).pth
+NIH
+1    15736
+0     9860
+Name: target, dtype: int64
+25596
+400
+2021-12-31 18:12:18.928671
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=400.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.72      0.37      0.49      9860
+         1.0       0.70      0.91      0.79     15736
+
+    accuracy                           0.70     25596
+   macro avg       0.71      0.64      0.64     25596
+weighted avg       0.71      0.70      0.67     25596
+
+Test Accuracy: 0.7030  Test AUC: 0.7000  Test_AP: 0.7461
+TP: 14332  FP: 6198  TN: 3662  FN: 1404
+Sensitivity: 0.9108  Specificity: 0.3714
+Precision: 69.81%  Recall: 91.08%  F1: 0.7904
+PPV: 0.6981  NPV: 0.7229
+STANFORD
+1    32810
+0    31278
+Name: target, dtype: int64
+7088
+111
+/DATA/chowdari1/saved_models/nih_ppr_gold(100epoch).pth  is tested
+2021-12-31 18:27:48.696579
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=111.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.22      0.37      4933
+         1.0       0.36      0.99      0.52      2155
+
+    accuracy                           0.46      7088
+   macro avg       0.67      0.61      0.44      7088
+weighted avg       0.79      0.46      0.41      7088
+
+Test Accuracy: 0.4563  Test AUC: 0.8292  Test_AP: 0.6553
+TP: 2125  FP: 3824  TN: 1109  FN: 30
+Sensitivity: 0.9861  Specificity: 0.2248
+Precision: 35.72%  Recall: 98.61%  F1: 0.5244
+PPV: 0.3572  NPV: 0.9737
+testing completed!!

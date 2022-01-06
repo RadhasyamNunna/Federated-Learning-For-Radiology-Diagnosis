@@ -1,0 +1,728 @@
+True
+11721506816
+0
+0    50496
+1    36004
+Name: target, dtype: int64
+43225
+25595
+<torch.utils.data.dataloader.DataLoader object at 0x7f5220f8f860>
+400
+Training on GPU... Ready for HyperJump...
+Number of trainable parameters: 
+6954881
+Epoch 1/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+Val loss Decreased from inf to 0.6028 
+Saving Weights... 
+********************
+Train_AUC: 0.6985     Train_loss: 0.6192
+  Val_AUC: 0.7246     Val_loss: 0.6028
+Epoch 2/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+Val loss Decreased from 0.6028 to 0.5950 
+Saving Weights... 
+********************
+Train_AUC: 0.7279     Train_loss: 0.5985
+  Val_AUC: 0.7323     Val_loss: 0.5950
+Epoch 3/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+Val loss Decreased from 0.5950 to 0.5899 
+Saving Weights... 
+********************
+Train_AUC: 0.7358     Train_loss: 0.5922
+  Val_AUC: 0.7424     Val_loss: 0.5899
+Epoch 4/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+Val loss Decreased from 0.5899 to 0.5867 
+Saving Weights... 
+********************
+Train_AUC: 0.7429     Train_loss: 0.5867
+  Val_AUC: 0.7454     Val_loss: 0.5867
+Epoch 5/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.7474     Train_loss: 0.5830
+  Val_AUC: 0.7477     Val_loss: 0.5887
+Epoch 6/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+Val loss Decreased from 0.5867 to 0.5866 
+Saving Weights... 
+********************
+Train_AUC: 0.7544     Train_loss: 0.5772
+  Val_AUC: 0.7467     Val_loss: 0.5866
+Epoch 7/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+Val loss Decreased from 0.5866 to 0.5836 
+Saving Weights... 
+********************
+Train_AUC: 0.7568     Train_loss: 0.5746
+  Val_AUC: 0.7507     Val_loss: 0.5836
+Epoch 8/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.7633     Train_loss: 0.5693
+  Val_AUC: 0.7484     Val_loss: 0.5875
+Epoch 9/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.7659     Train_loss: 0.5662
+  Val_AUC: 0.7491     Val_loss: 0.5876
+Epoch 10/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.7699     Train_loss: 0.5626
+  Val_AUC: 0.7494     Val_loss: 0.5861
+Epoch 11/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.7751     Train_loss: 0.5576
+  Val_AUC: 0.7514     Val_loss: 0.5905
+Epoch 12/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.7787     Train_loss: 0.5541
+  Val_AUC: 0.7490     Val_loss: 0.5940
+Epoch 13/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.7836     Train_loss: 0.5490
+  Val_AUC: 0.7469     Val_loss: 0.5927
+Epoch 14/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8007     Train_loss: 0.5307
+  Val_AUC: 0.7525     Val_loss: 0.5963
+Epoch 15/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8048     Train_loss: 0.5262
+  Val_AUC: 0.7524     Val_loss: 0.5979
+Epoch 16/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8064     Train_loss: 0.5240
+  Val_AUC: 0.7501     Val_loss: 0.5978
+Epoch 17/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8080     Train_loss: 0.5221
+  Val_AUC: 0.7509     Val_loss: 0.6002
+Epoch 18/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8091     Train_loss: 0.5214
+  Val_AUC: 0.7503     Val_loss: 0.6004
+Epoch 19/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8120     Train_loss: 0.5180
+  Val_AUC: 0.7504     Val_loss: 0.6032
+Epoch 20/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8132     Train_loss: 0.5161
+  Val_AUC: 0.7513     Val_loss: 0.6017
+Epoch 21/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8148     Train_loss: 0.5145
+  Val_AUC: 0.7513     Val_loss: 0.5999
+Epoch 22/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8146     Train_loss: 0.5147
+  Val_AUC: 0.7511     Val_loss: 0.5994
+Epoch 23/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8147     Train_loss: 0.5148
+  Val_AUC: 0.7514     Val_loss: 0.5996
+Epoch 24/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8157     Train_loss: 0.5136
+  Val_AUC: 0.7512     Val_loss: 0.6009
+Epoch 25/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8152     Train_loss: 0.5139
+  Val_AUC: 0.7514     Val_loss: 0.6012
+Epoch 26/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8128     Train_loss: 0.5161
+  Val_AUC: 0.7513     Val_loss: 0.6001
+Epoch 27/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8161     Train_loss: 0.5131
+  Val_AUC: 0.7517     Val_loss: 0.6013
+Epoch 28/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8168     Train_loss: 0.5124
+  Val_AUC: 0.7515     Val_loss: 0.6017
+Epoch 29/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8161     Train_loss: 0.5131
+  Val_AUC: 0.7511     Val_loss: 0.6020
+Epoch 30/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8159     Train_loss: 0.5135
+  Val_AUC: 0.7513     Val_loss: 0.6009
+Epoch 31/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8157     Train_loss: 0.5135
+  Val_AUC: 0.7511     Val_loss: 0.6001
+Epoch 32/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8158     Train_loss: 0.5133
+  Val_AUC: 0.7513     Val_loss: 0.6019
+Epoch 33/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8156     Train_loss: 0.5133
+  Val_AUC: 0.7513     Val_loss: 0.6012
+Epoch 34/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8155     Train_loss: 0.5132
+  Val_AUC: 0.7512     Val_loss: 0.6000
+Epoch 35/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8166     Train_loss: 0.5127
+  Val_AUC: 0.7515     Val_loss: 0.6017
+Epoch 36/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8154     Train_loss: 0.5138
+  Val_AUC: 0.7514     Val_loss: 0.6002
+Epoch 37/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8159     Train_loss: 0.5134
+  Val_AUC: 0.7512     Val_loss: 0.6000
+Epoch 38/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8128     Train_loss: 0.5163
+  Val_AUC: 0.7513     Val_loss: 0.6005
+Epoch 39/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8148     Train_loss: 0.5139
+  Val_AUC: 0.7518     Val_loss: 0.6018
+Epoch 40/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8167     Train_loss: 0.5123
+  Val_AUC: 0.7511     Val_loss: 0.6011
+Epoch 41/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8160     Train_loss: 0.5130
+  Val_AUC: 0.7513     Val_loss: 0.6004
+Epoch 42/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8150     Train_loss: 0.5141
+  Val_AUC: 0.7511     Val_loss: 0.6007
+Epoch 43/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8159     Train_loss: 0.5129
+  Val_AUC: 0.7512     Val_loss: 0.6010
+Epoch 44/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8166     Train_loss: 0.5125
+  Val_AUC: 0.7513     Val_loss: 0.6011
+Epoch 45/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8154     Train_loss: 0.5135
+  Val_AUC: 0.7514     Val_loss: 0.6005
+Epoch 46/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8161     Train_loss: 0.5129
+  Val_AUC: 0.7514     Val_loss: 0.6014
+Epoch 47/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8155     Train_loss: 0.5139
+  Val_AUC: 0.7514     Val_loss: 0.6010
+Epoch 48/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8158     Train_loss: 0.5133
+  Val_AUC: 0.7514     Val_loss: 0.6010
+Epoch 49/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8153     Train_loss: 0.5140
+  Val_AUC: 0.7515     Val_loss: 0.6013
+Epoch 50/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8150     Train_loss: 0.5136
+  Val_AUC: 0.7513     Val_loss: 0.6000
+Epoch 51/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8169     Train_loss: 0.5122
+  Val_AUC: 0.7513     Val_loss: 0.6009
+Epoch 52/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8163     Train_loss: 0.5129
+  Val_AUC: 0.7515     Val_loss: 0.6010
+Epoch 53/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8147     Train_loss: 0.5146
+  Val_AUC: 0.7513     Val_loss: 0.5997
+Epoch 54/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8142     Train_loss: 0.5151
+  Val_AUC: 0.7514     Val_loss: 0.6005
+Epoch 55/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8158     Train_loss: 0.5134
+  Val_AUC: 0.7513     Val_loss: 0.6002
+Epoch 56/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8177     Train_loss: 0.5114
+  Val_AUC: 0.7514     Val_loss: 0.6010
+Epoch 57/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8153     Train_loss: 0.5139
+  Val_AUC: 0.7513     Val_loss: 0.6002
+Epoch 58/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8155     Train_loss: 0.5137
+  Val_AUC: 0.7514     Val_loss: 0.6006
+Epoch 59/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8149     Train_loss: 0.5143
+  Val_AUC: 0.7513     Val_loss: 0.6002
+Epoch 60/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8159     Train_loss: 0.5133
+  Val_AUC: 0.7512     Val_loss: 0.6021
+Epoch 61/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8151     Train_loss: 0.5141
+  Val_AUC: 0.7513     Val_loss: 0.6001
+Epoch 62/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8146     Train_loss: 0.5148
+  Val_AUC: 0.7515     Val_loss: 0.5997
+Epoch 63/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8140     Train_loss: 0.5149
+  Val_AUC: 0.7515     Val_loss: 0.6005
+Epoch 64/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8149     Train_loss: 0.5143
+  Val_AUC: 0.7514     Val_loss: 0.6012
+Epoch 65/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8146     Train_loss: 0.5151
+  Val_AUC: 0.7511     Val_loss: 0.6009
+Epoch 66/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8160     Train_loss: 0.5135
+  Val_AUC: 0.7511     Val_loss: 0.6005
+Epoch 67/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8140     Train_loss: 0.5149
+  Val_AUC: 0.7512     Val_loss: 0.6005
+Epoch 68/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8163     Train_loss: 0.5128
+  Val_AUC: 0.7513     Val_loss: 0.6011
+Epoch 69/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8161     Train_loss: 0.5133
+  Val_AUC: 0.7513     Val_loss: 0.6009
+Epoch 70/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8170     Train_loss: 0.5120
+  Val_AUC: 0.7515     Val_loss: 0.6013
+Epoch 71/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8150     Train_loss: 0.5142
+  Val_AUC: 0.7513     Val_loss: 0.6012
+Epoch 72/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8148     Train_loss: 0.5141
+  Val_AUC: 0.7513     Val_loss: 0.6009
+Epoch 73/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8159     Train_loss: 0.5131
+  Val_AUC: 0.7513     Val_loss: 0.6007
+Epoch 74/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8146     Train_loss: 0.5147
+  Val_AUC: 0.7513     Val_loss: 0.6011
+Epoch 75/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8151     Train_loss: 0.5137
+  Val_AUC: 0.7514     Val_loss: 0.6021
+Epoch 76/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8153     Train_loss: 0.5138
+  Val_AUC: 0.7514     Val_loss: 0.6016
+Epoch 77/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8137     Train_loss: 0.5158
+  Val_AUC: 0.7513     Val_loss: 0.6020
+Epoch 78/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8162     Train_loss: 0.5132
+  Val_AUC: 0.7512     Val_loss: 0.6008
+Epoch 79/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8158     Train_loss: 0.5133
+  Val_AUC: 0.7516     Val_loss: 0.6009
+Epoch 80/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8153     Train_loss: 0.5139
+  Val_AUC: 0.7510     Val_loss: 0.5998
+Epoch 81/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8164     Train_loss: 0.5128
+  Val_AUC: 0.7515     Val_loss: 0.6008
+Epoch 82/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8164     Train_loss: 0.5125
+  Val_AUC: 0.7514     Val_loss: 0.6009
+Epoch 83/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8166     Train_loss: 0.5124
+  Val_AUC: 0.7512     Val_loss: 0.6010
+Epoch 84/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8160     Train_loss: 0.5133
+  Val_AUC: 0.7512     Val_loss: 0.5999
+Epoch 85/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8154     Train_loss: 0.5135
+  Val_AUC: 0.7512     Val_loss: 0.6015
+Epoch 86/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8156     Train_loss: 0.5134
+  Val_AUC: 0.7514     Val_loss: 0.6010
+Epoch 87/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8146     Train_loss: 0.5143
+  Val_AUC: 0.7512     Val_loss: 0.6005
+Epoch 88/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8155     Train_loss: 0.5136
+  Val_AUC: 0.7514     Val_loss: 0.6019
+Epoch 89/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8159     Train_loss: 0.5131
+  Val_AUC: 0.7512     Val_loss: 0.6005
+Epoch 90/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8161     Train_loss: 0.5130
+  Val_AUC: 0.7512     Val_loss: 0.6010
+Epoch 91/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8150     Train_loss: 0.5140
+  Val_AUC: 0.7513     Val_loss: 0.6011
+Epoch 92/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8171     Train_loss: 0.5120
+  Val_AUC: 0.7514     Val_loss: 0.6002
+Epoch 93/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8152     Train_loss: 0.5137
+  Val_AUC: 0.7514     Val_loss: 0.6023
+Epoch 94/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8150     Train_loss: 0.5140
+  Val_AUC: 0.7511     Val_loss: 0.6006
+Epoch 95/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8159     Train_loss: 0.5132
+  Val_AUC: 0.7514     Val_loss: 0.6010
+Epoch 96/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8160     Train_loss: 0.5133
+  Val_AUC: 0.7513     Val_loss: 0.6009
+Epoch 97/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8157     Train_loss: 0.5136
+  Val_AUC: 0.7514     Val_loss: 0.6011
+Epoch 98/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8154     Train_loss: 0.5132
+  Val_AUC: 0.7511     Val_loss: 0.6004
+Epoch 99/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8144     Train_loss: 0.5149
+  Val_AUC: 0.7515     Val_loss: 0.6012
+Epoch 100/100
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=676.0), HTML(value='')))
+HBox(children=(HTML(value='val'), FloatProgress(value=0.0, max=677.0), HTML(value='')))
+********************
+Train_AUC: 0.8158     Train_loss: 0.5133
+  Val_AUC: 0.7511     Val_loss: 0.6002
+Training complete in 4811m 43s
+Best val loss: 0.5836
+model saved as: nih_gold(100epoch).pth
