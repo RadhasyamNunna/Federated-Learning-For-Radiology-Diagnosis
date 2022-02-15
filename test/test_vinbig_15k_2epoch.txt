@@ -1,0 +1,73 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+/DATA/chowdari1/saved_models/vinbig_15k(2epoch).pth
+NIH PPR
+0    677
+1    667
+Name: target, dtype: int64
+1344
+21
+2022-01-22 03:55:27.697970
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.95      0.73       677
+         1.0       0.88      0.34      0.49       667
+
+    accuracy                           0.65      1344
+   macro avg       0.74      0.65      0.61      1344
+weighted avg       0.74      0.65      0.61      1344
+
+Test Accuracy: 0.6503  Test AUC: 0.8720  Test_AP: 0.8430
+TP: 228  FP: 31  TN: 646  FN: 439
+Sensitivity: 0.3418  Specificity: 0.9542
+Precision: 88.03%  Recall: 34.18%  F1: 0.4924
+PPV: 0.8803  NPV: 0.5954
+NIH
+1    15736
+0     9860
+Name: target, dtype: int64
+25596
+400
+2022-01-22 03:58:11.645231
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=400.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.42      0.81      0.55      9860
+         1.0       0.72      0.31      0.43     15736
+
+    accuracy                           0.50     25596
+   macro avg       0.57      0.56      0.49     25596
+weighted avg       0.60      0.50      0.48     25596
+
+Test Accuracy: 0.4999  Test AUC: 0.6388  Test_AP: 0.7000
+TP: 4852  FP: 1917  TN: 7943  FN: 10884
+Sensitivity: 0.3083  Specificity: 0.8056
+Precision: 71.68%  Recall: 30.83%  F1: 0.4312
+PPV: 0.7168  NPV: 0.4219
+STANFORD
+1    32810
+0    31278
+Name: target, dtype: int64
+7088
+111
+/DATA/chowdari1/saved_models/vinbig_15k(2epoch).pth  is tested
+2022-01-22 04:46:19.173866
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=111.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.60      0.71      4933
+         1.0       0.46      0.78      0.58      2155
+
+    accuracy                           0.65      7088
+   macro avg       0.66      0.69      0.64      7088
+weighted avg       0.74      0.65      0.67      7088
+
+Test Accuracy: 0.6545  Test AUC: 0.7579  Test_AP: 0.5431
+TP: 1691  FP: 1985  TN: 2948  FN: 464
+Sensitivity: 0.7847  Specificity: 0.5976
+Precision: 46.00%  Recall: 78.47%  F1: 0.5800
+PPV: 0.4600  NPV: 0.8640
+testing completed!!

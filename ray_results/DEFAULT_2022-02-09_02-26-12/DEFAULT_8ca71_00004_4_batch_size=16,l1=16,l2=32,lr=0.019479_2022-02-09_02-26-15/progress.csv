@@ -1,0 +1,2 @@
+loss,accuracy,time_this_iter_s,should_checkpoint,done,timesteps_total,episodes_total,training_iteration,trial_id,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore
+1.6574456848144532,0.3876,33.17080235481262,True,True,,,1,8ca71_00004,78fce9e341b14d57bd78c27e93e8fc4e,2022-02-09_02-26-50,1644353810,33.17080235481262,38866,BOSS8-OS,172.25.0.208,33.17080235481262,0,1

@@ -1,0 +1,94 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+
+NIH PPR
+0    677
+1    667
+Name: target, dtype: int64
+1344
+21
+
+VINBIG
+0    10606
+1     4394
+Name: target, dtype: int64
+Unnamed: 0                                       0
+path          50a418190bc3fb1ef1633bf9678929b3.png
+target                                           0
+Name: 0, dtype: object
+2000
+32
+
+STANFORD wow
+1.0    159090
+0.0    145026
+Name: target, dtype: int64
+34116
+534
+Training on GPU... Ready for HyperJump...
+
+count:  0
+------------------------------
+/DATA/chowdari1/saved_models/vinbig_gold_21k(100epoch).pth
+
+NIH PPR
+2022-02-10 19:03:52.193987
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.92      0.87       677
+         1.0       0.90      0.80      0.85       667
+
+    accuracy                           0.86      1344
+   macro avg       0.86      0.86      0.86      1344
+weighted avg       0.86      0.86      0.86      1344
+
+Test Accuracy: 0.8586  Test AUC: 0.9289  Test_AP: 0.9378
+TP: 534  FP: 57  TN: 620  FN: 133
+Sensitivity: 0.8006  Specificity: 0.9158
+Precision: 90.36%  Recall: 80.06%  F1: 0.8490
+PPV: 0.9036  NPV: 0.8234
+
+VINBIG
+2022-02-10 19:05:03.849225
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.98      0.98      1811
+         1.0       0.82      0.89      0.85       189
+
+    accuracy                           0.97      2000
+   macro avg       0.90      0.93      0.92      2000
+weighted avg       0.97      0.97      0.97      2000
+
+Test Accuracy: 0.9705  Test AUC: 0.9896  Test_AP: 0.9207
+TP: 168  FP: 38  TN: 1773  FN: 21
+Sensitivity: 0.8889  Specificity: 0.9790
+Precision: 81.55%  Recall: 88.89%  F1: 0.8506
+PPV: 0.8155  NPV: 0.9883
+
+STANFORD wow
+2022-02-10 19:05:29.211142
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=534.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.25      0.38     16228
+         1.0       0.58      0.92      0.71     17888
+
+    accuracy                           0.60     34116
+   macro avg       0.65      0.58      0.54     34116
+weighted avg       0.65      0.60      0.55     34116
+
+Test Accuracy: 0.6011  Test AUC: 0.6474  Test_AP: 0.6185
+TP: 16382  FP: 12103  TN: 4125  FN: 1506
+Sensitivity: 0.9158  Specificity: 0.2542
+Precision: 57.51%  Recall: 91.58%  F1: 0.7065
+PPV: 0.5751  NPV: 0.7326
+/DATA/chowdari1/saved_models/vinbig_gold_21k(100epoch).pth  is tested
+
+testing completed!!
+
+-------------------
+

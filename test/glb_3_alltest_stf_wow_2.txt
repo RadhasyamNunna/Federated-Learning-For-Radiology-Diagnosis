@@ -1,0 +1,202 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+
+NIH PPR
+0    677
+1    667
+Name: target, dtype: int64
+1344
+21
+
+VINBIG
+0    10606
+1     4394
+Name: target, dtype: int64
+Unnamed: 0                                       0
+path          50a418190bc3fb1ef1633bf9678929b3.png
+target                                           0
+Name: 0, dtype: object
+2000
+32
+
+STANFORD wow
+1.0    159090
+0.0    145026
+Name: target, dtype: int64
+34116
+534
+Training on GPU... Ready for HyperJump...
+
+count:  0
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_simpleavg.pth
+
+NIH PPR
+2022-02-09 12:28:20.561665
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.99      0.89       677
+         1.0       0.99      0.77      0.86       667
+
+    accuracy                           0.88      1344
+   macro avg       0.90      0.88      0.88      1344
+weighted avg       0.90      0.88      0.88      1344
+
+Test Accuracy: 0.8795  Test AUC: 0.9589  Test_AP: 0.9672
+TP: 512  FP: 7  TN: 670  FN: 155
+Sensitivity: 0.7676  Specificity: 0.9897
+Precision: 98.65%  Recall: 76.76%  F1: 0.8634
+PPV: 0.9865  NPV: 0.8121
+
+VINBIG
+2022-02-09 12:29:44.628048
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.94      0.98      0.96      1811
+         1.0       0.69      0.35      0.47       189
+
+    accuracy                           0.92      2000
+   macro avg       0.81      0.67      0.71      2000
+weighted avg       0.91      0.92      0.91      2000
+
+Test Accuracy: 0.9240  Test AUC: 0.8878  Test_AP: 0.5590
+TP: 67  FP: 30  TN: 1781  FN: 122
+Sensitivity: 0.3545  Specificity: 0.9834
+Precision: 69.07%  Recall: 35.45%  F1: 0.4685
+PPV: 0.6907  NPV: 0.9359
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_simpleavg.pth  is tested
+
+
+count:  1
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_trainsize.pth
+
+NIH PPR
+2022-02-09 12:30:14.980784
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.91      0.87       677
+         1.0       0.90      0.81      0.85       667
+
+    accuracy                           0.86      1344
+   macro avg       0.86      0.86      0.86      1344
+weighted avg       0.86      0.86      0.86      1344
+
+Test Accuracy: 0.8594  Test AUC: 0.9167  Test_AP: 0.9355
+TP: 541  FP: 63  TN: 614  FN: 126
+Sensitivity: 0.8111  Specificity: 0.9069
+Precision: 89.57%  Recall: 81.11%  F1: 0.8513
+PPV: 0.8957  NPV: 0.8297
+
+VINBIG
+2022-02-09 12:31:40.327072
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.94      0.92      0.93      1811
+         1.0       0.37      0.43      0.40       189
+
+    accuracy                           0.88      2000
+   macro avg       0.65      0.68      0.67      2000
+weighted avg       0.89      0.88      0.88      2000
+
+Test Accuracy: 0.8765  Test AUC: 0.7740  Test_AP: 0.3499
+TP: 82  FP: 140  TN: 1671  FN: 107
+Sensitivity: 0.4339  Specificity: 0.9227
+Precision: 36.94%  Recall: 43.39%  F1: 0.3990
+PPV: 0.3694  NPV: 0.9398
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_trainsize.pth  is tested
+
+
+count:  2
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_trainloss.pth
+
+NIH PPR
+2022-02-09 12:32:12.426499
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.76      0.99      0.86       677
+         1.0       0.98      0.68      0.80       667
+
+    accuracy                           0.83      1344
+   macro avg       0.87      0.83      0.83      1344
+weighted avg       0.87      0.83      0.83      1344
+
+Test Accuracy: 0.8318  Test AUC: 0.9529  Test_AP: 0.9590
+TP: 451  FP: 10  TN: 667  FN: 216
+Sensitivity: 0.6762  Specificity: 0.9852
+Precision: 97.83%  Recall: 67.62%  F1: 0.7996
+PPV: 0.9783  NPV: 0.7554
+
+VINBIG
+2022-02-09 12:33:38.763775
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.94      1.00      0.97      1811
+         1.0       0.91      0.37      0.53       189
+
+    accuracy                           0.94      2000
+   macro avg       0.92      0.68      0.75      2000
+weighted avg       0.94      0.94      0.92      2000
+
+Test Accuracy: 0.9370  Test AUC: 0.9512  Test_AP: 0.7558
+TP: 70  FP: 7  TN: 1804  FN: 119
+Sensitivity: 0.3704  Specificity: 0.9961
+Precision: 90.91%  Recall: 37.04%  F1: 0.5263
+PPV: 0.9091  NPV: 0.9381
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_trainloss.pth  is tested
+
+
+count:  3
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_valloss.pth
+
+NIH PPR
+2022-02-09 12:34:20.967064
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.99      0.87       677
+         1.0       0.98      0.72      0.83       667
+
+    accuracy                           0.86      1344
+   macro avg       0.88      0.85      0.85      1344
+weighted avg       0.88      0.86      0.85      1344
+
+Test Accuracy: 0.8557  Test AUC: 0.9516  Test_AP: 0.9604
+TP: 482  FP: 9  TN: 668  FN: 185
+Sensitivity: 0.7226  Specificity: 0.9867
+Precision: 98.17%  Recall: 72.26%  F1: 0.8325
+PPV: 0.9817  NPV: 0.7831
+
+VINBIG
+2022-02-09 12:35:50.032466
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.93      0.99      0.96      1811
+         1.0       0.81      0.33      0.47       189
+
+    accuracy                           0.93      2000
+   macro avg       0.87      0.66      0.71      2000
+weighted avg       0.92      0.93      0.92      2000
+
+Test Accuracy: 0.9290  Test AUC: 0.9074  Test_AP: 0.6242
+TP: 62  FP: 15  TN: 1796  FN: 127
+Sensitivity: 0.3280  Specificity: 0.9917
+Precision: 80.52%  Recall: 32.80%  F1: 0.4662
+PPV: 0.8052  NPV: 0.9340
+/DATA/chowdari1/saved_models/global/glb_3_stfwow_valloss.pth  is tested
+
+testing completed!!
+
+-------------------
+

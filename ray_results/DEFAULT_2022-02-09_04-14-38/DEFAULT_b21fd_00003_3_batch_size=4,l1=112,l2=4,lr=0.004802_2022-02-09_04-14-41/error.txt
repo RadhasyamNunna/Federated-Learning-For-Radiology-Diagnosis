@@ -1,0 +1,34 @@
+Failure # 1 (occurred at 2022-02-09_04-14-44)
+Traceback (most recent call last):
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/trial_runner.py", line 924, in _process_trial
+    results = self.trial_executor.fetch_result(trial)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/ray_trial_executor.py", line 787, in fetch_result
+    result = ray.get(trial_future[0], timeout=DEFAULT_GET_TIMEOUT)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/_private/client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/worker.py", line 1713, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(TuneError): [36mray::ImplicitFunc.train_buffered()[39m (pid=10072, ip=172.25.0.208, repr=<ray.tune.function_runner.ImplicitFunc object at 0x7f224c37eeb8>)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/trainable.py", line 255, in train_buffered
+    result = self.train()
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/trainable.py", line 314, in train
+    result = self.step()
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 381, in step
+    self._report_thread_runner_error(block=True)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 532, in _report_thread_runner_error
+    ("Trial raised an exception. Traceback:\n{}".format(err_tb_str)
+ray.tune.error.TuneError: Trial raised an exception. Traceback:
+[36mray::ImplicitFunc.train_buffered()[39m (pid=10072, ip=172.25.0.208, repr=<ray.tune.function_runner.ImplicitFunc object at 0x7f224c37eeb8>)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 262, in run
+    self._entrypoint()
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 331, in entrypoint
+    self._status_reporter.get_checkpoint())
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 597, in _trainable_func
+    output = fn()
+  File "/tmp/ipykernel_9428/152591724.py", line 12, in train_cifar
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/torch/optim/sgd.py", line 95, in __init__
+    super(SGD, self).__init__(params, defaults)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/torch/optim/optimizer.py", line 49, in __init__
+    raise ValueError("optimizer got an empty parameter list")
+ValueError: optimizer got an empty parameter list
+

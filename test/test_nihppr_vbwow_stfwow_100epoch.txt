@@ -1,0 +1,213 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+
+NIH PPR
+0    677
+1    667
+Name: target, dtype: int64
+1344
+21
+
+VINBIG wow
+1.0    10985
+0.0    10606
+Name: target, dtype: int64
+3240
+51
+
+STANFORD wow
+1.0    159090
+0.0    145026
+Name: target, dtype: int64
+34116
+534
+{'nihppr': 1344, 'vbwow': 3240, 'stfwow': 34116} 
+
+Training on GPU... Ready for HyperJump...
+
+count:  0
+------------------------------
+/DATA/chowdari1/saved_models/nih_ppr_gold(100epoch).pth
+
+NIH PPR
+2022-02-15 23:27:05.642956
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.87      0.91       677
+         1.0       0.88      0.96      0.92       667
+
+    accuracy                           0.91      1344
+   macro avg       0.92      0.91      0.91      1344
+weighted avg       0.92      0.91      0.91      1344
+
+Test Accuracy: 0.9144  Test AUC: 0.9808  Test_AP: 0.9847
+TP: 637  FP: 85  TN: 592  FN: 30
+Sensitivity: 0.9550  Specificity: 0.8744
+Precision: 88.23%  Recall: 95.50%  F1: 0.9172
+PPV: 0.8823  NPV: 0.9518
+
+VINBIG wow
+2022-02-15 23:29:05.124634
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=51.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.63      0.72      1623
+         1.0       0.71      0.89      0.79      1617
+
+    accuracy                           0.76      3240
+   macro avg       0.78      0.76      0.76      3240
+weighted avg       0.78      0.76      0.76      3240
+
+Test Accuracy: 0.7599  Test AUC: 0.8619  Test_AP: 0.8628
+TP: 1440  FP: 601  TN: 1022  FN: 177
+Sensitivity: 0.8905  Specificity: 0.6297
+Precision: 70.55%  Recall: 89.05%  F1: 0.7873
+PPV: 0.7055  NPV: 0.8524
+
+STANFORD wow
+2022-02-15 23:29:55.799323
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=534.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.21      0.34     16228
+         1.0       0.57      0.97      0.72     17888
+
+    accuracy                           0.61     34116
+   macro avg       0.72      0.59      0.53     34116
+weighted avg       0.71      0.61      0.54     34116
+
+Test Accuracy: 0.6081  Test AUC: 0.7927  Test_AP: 0.7847
+TP: 17356  FP: 12837  TN: 3391  FN: 532
+Sensitivity: 0.9703  Specificity: 0.2090
+Precision: 57.48%  Recall: 97.03%  F1: 0.7219
+PPV: 0.5748  NPV: 0.8644
+/DATA/chowdari1/saved_models/nih_ppr_gold(100epoch).pth  is tested
+
+
+count:  1
+------------------------------
+/DATA/chowdari1/saved_models/stanford_gold_wow(100epoch).pth
+
+NIH PPR
+2022-02-15 23:58:59.936188
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.92      0.88       677
+         1.0       0.91      0.82      0.86       667
+
+    accuracy                           0.87      1344
+   macro avg       0.87      0.87      0.87      1344
+weighted avg       0.87      0.87      0.87      1344
+
+Test Accuracy: 0.8698  Test AUC: 0.9246  Test_AP: 0.9418
+TP: 548  FP: 56  TN: 621  FN: 119
+Sensitivity: 0.8216  Specificity: 0.9173
+Precision: 90.73%  Recall: 82.16%  F1: 0.8623
+PPV: 0.9073  NPV: 0.8392
+
+VINBIG wow
+2022-02-16 00:00:09.784461
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=51.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.66      0.89      0.76      1623
+         1.0       0.84      0.54      0.66      1617
+
+    accuracy                           0.72      3240
+   macro avg       0.75      0.72      0.71      3240
+weighted avg       0.75      0.72      0.71      3240
+
+Test Accuracy: 0.7188  Test AUC: 0.7945  Test_AP: 0.8100
+TP: 878  FP: 172  TN: 1451  FN: 739
+Sensitivity: 0.5430  Specificity: 0.8940
+Precision: 83.62%  Recall: 54.30%  F1: 0.6584
+PPV: 0.8362  NPV: 0.6626
+
+STANFORD wow
+2022-02-16 00:01:05.729149
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=534.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.91      0.93     16228
+         1.0       0.92      0.96      0.94     17888
+
+    accuracy                           0.93     34116
+   macro avg       0.94      0.93      0.93     34116
+weighted avg       0.93      0.93      0.93     34116
+
+Test Accuracy: 0.9338  Test AUC: 0.9764  Test_AP: 0.9703
+TP: 17130  FP: 1499  TN: 14729  FN: 758
+Sensitivity: 0.9576  Specificity: 0.9076
+Precision: 91.95%  Recall: 95.76%  F1: 0.9382
+PPV: 0.9195  NPV: 0.9511
+/DATA/chowdari1/saved_models/stanford_gold_wow(100epoch).pth  is tested
+
+
+count:  2
+------------------------------
+/DATA/chowdari1/saved_models/vinbig_gold_21k(100epoch).pth
+
+NIH PPR
+2022-02-16 00:12:22.851518
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.92      0.87       677
+         1.0       0.90      0.80      0.85       667
+
+    accuracy                           0.86      1344
+   macro avg       0.86      0.86      0.86      1344
+weighted avg       0.86      0.86      0.86      1344
+
+Test Accuracy: 0.8586  Test AUC: 0.9289  Test_AP: 0.9378
+TP: 534  FP: 57  TN: 620  FN: 133
+Sensitivity: 0.8006  Specificity: 0.9158
+Precision: 90.36%  Recall: 80.06%  F1: 0.8490
+PPV: 0.9036  NPV: 0.8234
+
+VINBIG wow
+2022-02-16 00:13:32.883892
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=51.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.94      0.97      0.95      1623
+         1.0       0.97      0.93      0.95      1617
+
+    accuracy                           0.95      3240
+   macro avg       0.95      0.95      0.95      3240
+weighted avg       0.95      0.95      0.95      3240
+
+Test Accuracy: 0.9537  Test AUC: 0.9916  Test_AP: 0.9916
+TP: 1511  FP: 44  TN: 1579  FN: 106
+Sensitivity: 0.9344  Specificity: 0.9729
+Precision: 97.17%  Recall: 93.44%  F1: 0.9527
+PPV: 0.9717  NPV: 0.9371
+
+STANFORD wow
+2022-02-16 00:14:10.065321
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=534.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.25      0.38     16228
+         1.0       0.58      0.92      0.71     17888
+
+    accuracy                           0.60     34116
+   macro avg       0.65      0.58      0.54     34116
+weighted avg       0.65      0.60      0.55     34116
+
+Test Accuracy: 0.6011  Test AUC: 0.6474  Test_AP: 0.6185
+TP: 16382  FP: 12103  TN: 4125  FN: 1506
+Sensitivity: 0.9158  Specificity: 0.2542
+Precision: 57.51%  Recall: 91.58%  F1: 0.7065
+PPV: 0.5751  NPV: 0.7326
+/DATA/chowdari1/saved_models/vinbig_gold_21k(100epoch).pth  is tested
+
+testing completed!!
+
+csv saved to:  /DATA/chowdari1/test/test_final_models.csv
+-------------------
+

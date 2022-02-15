@@ -1,0 +1,12 @@
+Failure # 1 (occurred at 2022-02-09_06-38-20)
+Traceback (most recent call last):
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/trial_runner.py", line 893, in _process_trial
+    results = self.trial_executor.fetch_result(trial)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/ray_trial_executor.py", line 707, in fetch_result
+    result = ray.get(trial_future[0], timeout=DEFAULT_GET_TIMEOUT)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/_private/client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/worker.py", line 1735, in get
+    raise value
+ray.exceptions.RayActorError: The actor died unexpectedly before finishing this task.
+

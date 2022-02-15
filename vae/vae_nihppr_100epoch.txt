@@ -1,0 +1,143 @@
+True
+(1706, 4) (8574, 4)
+8512
+<torch.utils.data.dataloader.DataLoader object at 0x7ff1235bb128>
+26
+Training on GPU... Ready for HyperJump...
+torch.Size([64, 1, 224, 224])
+torch.Size([64, 1, 224, 224])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+torch.Size([64])
+Epoch 1/100
+2022-01-24 13:29:18.981492
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 0, Train Loss: 530956.37, Test Loss: 13100.54
+Epoch 2/100
+2022-01-24 13:49:41.832430
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 1, Train Loss: 5251.15, Test Loss: 1925.88
+Epoch 3/100
+2022-01-24 14:11:09.371601
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 2, Train Loss: 865.81, Test Loss: 999.51
+Epoch 4/100
+2022-01-24 14:33:21.981806
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 3, Train Loss: 463.06, Test Loss: 783.83
+Epoch 5/100
+2022-01-24 14:52:05.283089
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 4, Train Loss: 385.34, Test Loss: 568.34
+Epoch 6/100
+2022-01-24 15:09:27.108497
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 5, Train Loss: 219.33, Test Loss: 390.05
+Epoch 7/100
+2022-01-24 15:26:49.552950
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 6, Train Loss: 224.63, Test Loss: 326.36
+Epoch 8/100
+2022-01-24 15:44:04.158811
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 7, Train Loss: 130.22, Test Loss: 257.05
+Epoch 9/100
+2022-01-24 16:01:43.590480
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 8, Train Loss: 170.84, Test Loss: 276.39
+Epoch 10/100
+2022-01-24 16:19:14.336079
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 9, Train Loss: 147.56, Test Loss: 107.01
+Epoch 11/100
+2022-01-24 16:36:23.538777
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 10, Train Loss: 129.97, Test Loss: 75.87
+Epoch 12/100
+2022-01-24 16:51:30.345519
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 11, Train Loss: 125.17, Test Loss: 139.71
+Epoch 13/100
+2022-01-24 17:07:50.694400
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 12, Train Loss: 104.77, Test Loss: 73.02
+Epoch 14/100
+2022-01-24 17:25:12.957838
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 13, Train Loss: 99.60, Test Loss: 86.65
+Epoch 15/100
+2022-01-24 17:43:04.135308
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 14, Train Loss: 97.30, Test Loss: 103.47
+Epoch 16/100
+2022-01-24 18:00:18.248841
+----------
+Started accessing trainloader
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=133.0), HTML(value='')))
+accessing test loader
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=26.0), HTML(value='')))
+Epoch 15, Train Loss: 82.64, Test Loss: 74.27
+best_test_loss:  73.02019236637996
+best_test_loss:  73.02019236637996
+torch.Size([1, 20])
+torch.Size([224, 224])
+images saved as: /images/100ep

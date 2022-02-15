@@ -1,0 +1,274 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+
+NIH PPR
+0    677
+1    667
+Name: target, dtype: int64
+1344
+21
+
+VINBIG
+0    10606
+1     4394
+Name: target, dtype: int64
+Unnamed: 0                                       0
+path          50a418190bc3fb1ef1633bf9678929b3.png
+target                                           0
+Name: 0, dtype: object
+2000
+32
+
+STANFORD
+1    32810
+0    31278
+Name: target, dtype: int64
+7088
+111
+Training on GPU... Ready for HyperJump...
+
+count:  0
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_simpleavg.pth
+
+NIH PPR
+2022-01-26 04:54:34.123584
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.97      0.91       677
+         1.0       0.96      0.85      0.90       667
+
+    accuracy                           0.91      1344
+   macro avg       0.92      0.91      0.91      1344
+weighted avg       0.92      0.91      0.91      1344
+
+Test Accuracy: 0.9092  Test AUC: 0.9698  Test_AP: 0.9752
+TP: 566  FP: 21  TN: 656  FN: 101
+Sensitivity: 0.8486  Specificity: 0.9690
+Precision: 96.42%  Recall: 84.86%  F1: 0.9027
+PPV: 0.9642  NPV: 0.8666
+
+VINBIG
+2022-01-26 04:57:44.700860
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.94      0.95      0.94      1811
+         1.0       0.45      0.41      0.43       189
+
+    accuracy                           0.90      2000
+   macro avg       0.70      0.68      0.69      2000
+weighted avg       0.89      0.90      0.89      2000
+
+Test Accuracy: 0.8970  Test AUC: 0.8356  Test_AP: 0.4513
+TP: 78  FP: 95  TN: 1716  FN: 111
+Sensitivity: 0.4127  Specificity: 0.9475
+Precision: 45.09%  Recall: 41.27%  F1: 0.4309
+PPV: 0.4509  NPV: 0.9392
+
+STANFORD
+2022-01-26 05:01:19.507495
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=111.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.93      0.52      0.67      4933
+         1.0       0.45      0.91      0.61      2155
+
+    accuracy                           0.64      7088
+   macro avg       0.69      0.72      0.64      7088
+weighted avg       0.78      0.64      0.65      7088
+
+Test Accuracy: 0.6408  Test AUC: 0.8306  Test_AP: 0.6720
+TP: 1953  FP: 2344  TN: 2589  FN: 202
+Sensitivity: 0.9063  Specificity: 0.5248
+Precision: 45.45%  Recall: 90.63%  F1: 0.6054
+PPV: 0.4545  NPV: 0.9276
+/DATA/chowdari1/saved_models/global/glb_3_simpleavg.pth  is tested
+
+
+count:  1
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_trainsize.pth
+
+NIH PPR
+2022-01-26 05:13:25.530030
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       677
+         1.0       0.50      1.00      0.66       667
+
+    accuracy                           0.50      1344
+   macro avg       0.25      0.50      0.33      1344
+weighted avg       0.25      0.50      0.33      1344
+
+Test Accuracy: 0.4963  Test AUC: 0.4126  Test_AP: 0.4770
+TP: 667  FP: 677  TN: 0  FN: 0
+Sensitivity: 1.0000  Specificity: 0.0000
+Precision: 49.63%  Recall: 100.00%  F1: 0.6634
+PPV: 0.4963  NPV: nan
+
+VINBIG
+2022-01-26 05:16:27.656824
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1811
+         1.0       0.09      1.00      0.17       189
+
+    accuracy                           0.09      2000
+   macro avg       0.05      0.50      0.09      2000
+weighted avg       0.01      0.09      0.02      2000
+
+Test Accuracy: 0.0945  Test AUC: 0.6413  Test_AP: 0.2181
+TP: 189  FP: 1811  TN: 0  FN: 0
+Sensitivity: 1.0000  Specificity: 0.0000
+Precision: 9.45%  Recall: 100.00%  F1: 0.1727
+PPV: 0.0945  NPV: nan
+
+STANFORD
+2022-01-26 05:19:37.336504
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=111.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      4933
+         1.0       0.30      1.00      0.47      2155
+
+    accuracy                           0.30      7088
+   macro avg       0.15      0.50      0.23      7088
+weighted avg       0.09      0.30      0.14      7088
+
+Test Accuracy: 0.3040  Test AUC: 0.3825  Test_AP: 0.2411
+TP: 2155  FP: 4933  TN: 0  FN: 0
+Sensitivity: 1.0000  Specificity: 0.0000
+Precision: 30.40%  Recall: 100.00%  F1: 0.4663
+PPV: 0.3040  NPV: nan
+/DATA/chowdari1/saved_models/global/glb_3_trainsize.pth  is tested
+
+
+count:  2
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_trainloss.pth
+
+NIH PPR
+2022-01-26 05:31:22.486816
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       677
+         1.0       0.00      0.00      0.00       667
+
+    accuracy                           0.50      1344
+   macro avg       0.25      0.50      0.33      1344
+weighted avg       0.25      0.50      0.34      1344
+
+Test Accuracy: 0.5037  Test AUC: 0.4546  Test_AP: 0.4742
+TP: 0  FP: 0  TN: 677  FN: 667
+Sensitivity: 0.0000  Specificity: 1.0000
+Precision: nan%  Recall: 0.00%  F1: nan
+PPV: nan  NPV: 0.5037
+
+VINBIG
+2022-01-26 05:34:26.069422
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.91      1.00      0.95      1811
+         1.0       0.00      0.00      0.00       189
+
+    accuracy                           0.91      2000
+   macro avg       0.45      0.50      0.48      2000
+weighted avg       0.82      0.91      0.86      2000
+
+Test Accuracy: 0.9055  Test AUC: 0.5825  Test_AP: 0.1240
+TP: 0  FP: 0  TN: 1811  FN: 189
+Sensitivity: 0.0000  Specificity: 1.0000
+Precision: nan%  Recall: 0.00%  F1: nan
+PPV: nan  NPV: 0.9055
+
+STANFORD
+2022-01-26 05:37:37.254950
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=111.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.70      1.00      0.82      4933
+         1.0       0.00      0.00      0.00      2155
+
+    accuracy                           0.70      7088
+   macro avg       0.35      0.50      0.41      7088
+weighted avg       0.48      0.70      0.57      7088
+
+Test Accuracy: 0.6960  Test AUC: 0.4316  Test_AP: 0.2771
+TP: 0  FP: 0  TN: 4933  FN: 2155
+Sensitivity: 0.0000  Specificity: 1.0000
+Precision: nan%  Recall: 0.00%  F1: nan
+PPV: nan  NPV: 0.6960
+/DATA/chowdari1/saved_models/global/glb_3_trainloss.pth  is tested
+
+
+count:  3
+------------------------------
+/DATA/chowdari1/saved_models/global/glb_3_valloss.pth
+
+NIH PPR
+2022-01-26 05:49:44.299942
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       677
+         1.0       0.00      0.00      0.00       667
+
+    accuracy                           0.50      1344
+   macro avg       0.25      0.50      0.33      1344
+weighted avg       0.25      0.50      0.34      1344
+
+Test Accuracy: 0.5037  Test AUC: 0.5000  Test_AP: 0.4963
+TP: 0  FP: 0  TN: 677  FN: 667
+Sensitivity: 0.0000  Specificity: 1.0000
+Precision: nan%  Recall: 0.00%  F1: nan
+PPV: nan  NPV: 0.5037
+
+VINBIG
+2022-01-26 05:52:48.743644
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.91      1.00      0.95      1811
+         1.0       0.00      0.00      0.00       189
+
+    accuracy                           0.91      2000
+   macro avg       0.45      0.50      0.48      2000
+weighted avg       0.82      0.91      0.86      2000
+
+Test Accuracy: 0.9055  Test AUC: 0.5000  Test_AP: 0.0945
+TP: 0  FP: 0  TN: 1811  FN: 189
+Sensitivity: 0.0000  Specificity: 1.0000
+Precision: nan%  Recall: 0.00%  F1: nan
+PPV: nan  NPV: 0.9055
+
+STANFORD
+2022-01-26 05:56:00.150104
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=111.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.70      1.00      0.82      4933
+         1.0       0.00      0.00      0.00      2155
+
+    accuracy                           0.70      7088
+   macro avg       0.35      0.50      0.41      7088
+weighted avg       0.48      0.70      0.57      7088
+
+Test Accuracy: 0.6960  Test AUC: 0.5000  Test_AP: 0.3040
+TP: 0  FP: 0  TN: 4933  FN: 2155
+Sensitivity: 0.0000  Specificity: 1.0000
+Precision: nan%  Recall: 0.00%  F1: nan
+PPV: nan  NPV: 0.6960
+/DATA/chowdari1/saved_models/global/glb_3_valloss.pth  is tested
+
+testing completed!!
+
+-------------------
+

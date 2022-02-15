@@ -1,0 +1,94 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+
+NIH PPR
+0    677
+1    667
+Name: target, dtype: int64
+1344
+21
+
+VINBIG
+0    10606
+1     4394
+Name: target, dtype: int64
+Unnamed: 0                                       0
+path          50a418190bc3fb1ef1633bf9678929b3.png
+target                                           0
+Name: 0, dtype: object
+2000
+32
+
+STANFORD
+1    32810
+0    31278
+Name: target, dtype: int64
+7088
+111
+Training on GPU... Ready for HyperJump...
+
+count:  0
+------------------------------
+/DATA/chowdari1/saved_models/stanford_gold_wow(100epoch).pth
+
+NIH PPR
+2022-02-07 21:12:49.059052
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=21.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.92      0.88       677
+         1.0       0.91      0.82      0.86       667
+
+    accuracy                           0.87      1344
+   macro avg       0.87      0.87      0.87      1344
+weighted avg       0.87      0.87      0.87      1344
+
+Test Accuracy: 0.8698  Test AUC: 0.9246  Test_AP: 0.9418
+TP: 548  FP: 56  TN: 621  FN: 119
+Sensitivity: 0.8216  Specificity: 0.9173
+Precision: 90.73%  Recall: 82.16%  F1: 0.8623
+PPV: 0.9073  NPV: 0.8392
+
+VINBIG
+2022-02-07 21:13:32.981610
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=32.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.89      0.92      1811
+         1.0       0.33      0.51      0.40       189
+
+    accuracy                           0.85      2000
+   macro avg       0.64      0.70      0.66      2000
+weighted avg       0.89      0.85      0.87      2000
+
+Test Accuracy: 0.8540  Test AUC: 0.7882  Test_AP: 0.3443
+TP: 97  FP: 200  TN: 1611  FN: 92
+Sensitivity: 0.5132  Specificity: 0.8896
+Precision: 32.66%  Recall: 51.32%  F1: 0.3992
+PPV: 0.3266  NPV: 0.9460
+
+STANFORD
+2022-02-07 21:13:53.664117
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=111.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.38      0.55      4933
+         1.0       0.41      0.97      0.58      2155
+
+    accuracy                           0.56      7088
+   macro avg       0.69      0.68      0.56      7088
+weighted avg       0.80      0.56      0.56      7088
+
+Test Accuracy: 0.5626  Test AUC: 0.8640  Test_AP: 0.7300
+TP: 2099  FP: 3044  TN: 1889  FN: 56
+Sensitivity: 0.9740  Specificity: 0.3829
+Precision: 40.81%  Recall: 97.40%  F1: 0.5752
+PPV: 0.4081  NPV: 0.9712
+/DATA/chowdari1/saved_models/stanford_gold_wow(100epoch).pth  is tested
+
+testing completed!!
+
+-------------------
+

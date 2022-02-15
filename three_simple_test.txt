@@ -1,0 +1,47 @@
+True
+11721506816
+0
+Training on GPU... Ready for HyperJump...
+/DATA/chowdari1/saved_models/ppr/three_simple_avg.pth
+1    15736
+0     9860
+Name: target, dtype: int64
+25596
+400
+NIH model on NIH_test
+2022-01-25 16:14:36.632710
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=400.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.50      0.56      9860
+         1.0       0.72      0.82      0.77     15736
+
+    accuracy                           0.70     25596
+   macro avg       0.68      0.66      0.67     25596
+weighted avg       0.69      0.70      0.69     25596
+
+Test Accuracy: 0.6983  Test AUC: 0.7056  Test_AP: 0.7572
+TP: 12925  FP: 4912  TN: 4948  FN: 2811
+Sensitivity: 0.8214  Specificity: 0.5018
+Precision: 72.46%  Recall: 82.14%  F1: 0.7700
+PPV: 0.7246  NPV: 0.6377
+STANFORD model on NIH_test
+2022-01-25 17:06:30.952051
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=400.0), HTML(value='')))
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.60      0.58      9860
+         1.0       0.74      0.70      0.72     15736
+
+    accuracy                           0.66     25596
+   macro avg       0.65      0.65      0.65     25596
+weighted avg       0.67      0.66      0.66     25596
+
+Test Accuracy: 0.6605  Test AUC: 0.6953  Test_AP: 0.7451
+TP: 10994  FP: 3949  TN: 5911  FN: 4742
+Sensitivity: 0.6987  Specificity: 0.5995
+Precision: 73.57%  Recall: 69.87%  F1: 0.7167
+PPV: 0.7357  NPV: 0.5549
+VINBIG model on NIH_test
+2022-01-25 18:00:41.823363
+HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=400.0), HTML(value='')))

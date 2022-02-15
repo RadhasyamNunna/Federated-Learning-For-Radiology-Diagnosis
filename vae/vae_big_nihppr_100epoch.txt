@@ -1,0 +1,715 @@
+True
+11721506816
+0
+8448
+<torch.utils.data.dataloader.DataLoader object at 0x7f2ba2b9b0b8>
+{'train': 8448, 'val': 1536}
+Training on GPU... Ready for HyperJump...
+torch.Size([256, 1, 224, 224])
+torch.Size([256, 1, 224, 224])
+Selected device: cuda
+Epoch 1/100
+2022-01-25 03:59:08.790434
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 1/100 	 train loss 50388.491 	 val loss 48523.323
+Epoch 2/100
+2022-01-25 04:10:35.916303
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 2/100 	 train loss 42834.274 	 val loss 39003.511
+Epoch 3/100
+2022-01-25 04:24:38.532795
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 3/100 	 train loss 37585.295 	 val loss 35854.365
+Epoch 4/100
+2022-01-25 04:38:36.760277
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 4/100 	 train loss 34556.796 	 val loss 33627.425
+Epoch 5/100
+2022-01-25 04:52:47.834044
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 5/100 	 train loss 32364.381 	 val loss 31749.950
+Epoch 6/100
+2022-01-25 05:06:44.170026
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 6/100 	 train loss 30677.254 	 val loss 30302.423
+Epoch 7/100
+2022-01-25 05:21:09.348472
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 7/100 	 train loss 29434.777 	 val loss 29513.098
+Epoch 8/100
+2022-01-25 05:36:04.319579
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 8/100 	 train loss 28503.300 	 val loss 28781.542
+Epoch 9/100
+2022-01-25 05:50:42.951929
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 9/100 	 train loss 27826.932 	 val loss 28080.606
+Epoch 10/100
+2022-01-25 06:05:30.791241
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 10/100 	 train loss 27296.724 	 val loss 27906.132
+Epoch 11/100
+2022-01-25 06:20:13.111304
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 11/100 	 train loss 26930.907 	 val loss 27315.459
+Epoch 12/100
+2022-01-25 06:35:14.078667
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 12/100 	 train loss 26700.721 	 val loss 27200.715
+Epoch 13/100
+2022-01-25 06:49:58.683763
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 13/100 	 train loss 26437.053 	 val loss 26895.637
+Epoch 14/100
+2022-01-25 07:04:41.350635
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 14/100 	 train loss 26240.359 	 val loss 26778.915
+Epoch 15/100
+2022-01-25 07:19:39.689765
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 15/100 	 train loss 26114.107 	 val loss 26716.551
+Epoch 16/100
+2022-01-25 07:34:22.954846
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 16/100 	 train loss 25952.964 	 val loss 26683.372
+Epoch 17/100
+2022-01-25 07:49:17.960433
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 17/100 	 train loss 25789.991 	 val loss 26636.487
+Epoch 18/100
+2022-01-25 08:04:05.014632
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 18/100 	 train loss 25713.095 	 val loss 26677.390
+Epoch 19/100
+2022-01-25 08:18:58.151905
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 19/100 	 train loss 25657.259 	 val loss 26370.579
+Epoch 20/100
+2022-01-25 08:33:48.295112
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 20/100 	 train loss 25557.627 	 val loss 26278.616
+Epoch 21/100
+2022-01-25 08:48:40.622285
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 21/100 	 train loss 25472.650 	 val loss 26326.483
+Epoch 22/100
+2022-01-25 09:03:40.578101
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 22/100 	 train loss 25408.737 	 val loss 26271.612
+Epoch 23/100
+2022-01-25 09:18:29.968070
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 23/100 	 train loss 25384.749 	 val loss 26309.737
+Epoch 24/100
+2022-01-25 09:33:27.157384
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 24/100 	 train loss 25386.932 	 val loss 26299.445
+Epoch 25/100
+2022-01-25 09:48:13.890619
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 25/100 	 train loss 25422.611 	 val loss 26326.544
+Epoch 26/100
+2022-01-25 10:03:11.661168
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 26/100 	 train loss 25401.133 	 val loss 26128.120
+Epoch 27/100
+2022-01-25 10:18:09.220450
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 27/100 	 train loss 25299.590 	 val loss 26321.787
+Epoch 28/100
+2022-01-25 10:32:59.367429
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 28/100 	 train loss 25232.885 	 val loss 26225.343
+Epoch 29/100
+2022-01-25 10:47:56.093270
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 29/100 	 train loss 25175.478 	 val loss 26235.969
+Epoch 30/100
+2022-01-25 11:02:43.405547
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 30/100 	 train loss 25162.437 	 val loss 26410.136
+Epoch 31/100
+2022-01-25 11:17:43.873865
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 31/100 	 train loss 25205.666 	 val loss 26310.332
+Epoch 32/100
+2022-01-25 11:32:34.483118
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 32/100 	 train loss 25270.296 	 val loss 26312.623
+Epoch 33/100
+2022-01-25 11:47:40.104541
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 33/100 	 train loss 25266.274 	 val loss 26110.819
+Epoch 34/100
+2022-01-25 12:03:43.053538
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 34/100 	 train loss 25120.979 	 val loss 26052.156
+Epoch 35/100
+2022-01-25 12:19:51.022980
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 35/100 	 train loss 25066.545 	 val loss 26023.182
+Epoch 36/100
+2022-01-25 12:36:09.836025
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 36/100 	 train loss 25066.541 	 val loss 26035.096
+Epoch 37/100
+2022-01-25 12:52:06.383237
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 37/100 	 train loss 25065.043 	 val loss 26144.156
+Epoch 38/100
+2022-01-25 13:08:23.717252
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 38/100 	 train loss 25098.959 	 val loss 26136.739
+Epoch 39/100
+2022-01-25 13:24:36.234042
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 39/100 	 train loss 25066.485 	 val loss 26052.557
+Epoch 40/100
+2022-01-25 13:35:38.559238
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 40/100 	 train loss 24933.738 	 val loss 25980.016
+Epoch 41/100
+2022-01-25 13:46:29.707824
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 41/100 	 train loss 24862.434 	 val loss 25943.273
+Epoch 42/100
+2022-01-25 13:57:21.804393
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 42/100 	 train loss 24821.428 	 val loss 25933.139
+Epoch 43/100
+2022-01-25 14:08:26.017648
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 43/100 	 train loss 24809.504 	 val loss 25924.264
+Epoch 44/100
+2022-01-25 14:19:29.165388
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 44/100 	 train loss 24808.427 	 val loss 25955.118
+Epoch 45/100
+2022-01-25 14:30:30.075503
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 45/100 	 train loss 24844.047 	 val loss 25953.081
+Epoch 46/100
+2022-01-25 14:41:56.392797
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 46/100 	 train loss 24920.664 	 val loss 26057.375
+Epoch 47/100
+2022-01-25 14:53:30.133349
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 47/100 	 train loss 24930.568 	 val loss 25944.152
+Epoch 48/100
+2022-01-25 15:05:32.535478
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 48/100 	 train loss 24826.116 	 val loss 25938.699
+Epoch 49/100
+2022-01-25 15:16:35.743223
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 49/100 	 train loss 24791.136 	 val loss 25964.014
+Epoch 50/100
+2022-01-25 15:27:32.410388
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 50/100 	 train loss 24770.941 	 val loss 25984.472
+Epoch 51/100
+2022-01-25 15:37:39.659131
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 51/100 	 train loss 24790.927 	 val loss 25903.868
+Epoch 52/100
+2022-01-25 15:47:41.114764
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 52/100 	 train loss 24819.980 	 val loss 26028.624
+Epoch 53/100
+2022-01-25 15:57:49.326509
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 53/100 	 train loss 24829.181 	 val loss 26080.081
+Epoch 54/100
+2022-01-25 16:07:27.124166
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 54/100 	 train loss 24799.642 	 val loss 26113.022
+Epoch 55/100
+2022-01-25 16:18:08.214971
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 55/100 	 train loss 24849.045 	 val loss 26131.554
+Epoch 56/100
+2022-01-25 16:33:27.337012
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 56/100 	 train loss 24882.677 	 val loss 26173.387
+Epoch 57/100
+2022-01-25 16:49:24.978918
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 57/100 	 train loss 24988.246 	 val loss 25854.711
+Epoch 58/100
+2022-01-25 17:05:29.249834
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 58/100 	 train loss 24950.511 	 val loss 25986.116
+Epoch 59/100
+2022-01-25 17:21:54.126957
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 59/100 	 train loss 24837.415 	 val loss 25989.075
+Epoch 60/100
+2022-01-25 17:38:01.600933
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 60/100 	 train loss 24731.696 	 val loss 25904.611
+Epoch 61/100
+2022-01-25 17:56:49.207279
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 61/100 	 train loss 24663.937 	 val loss 25881.158
+Epoch 62/100
+2022-01-25 18:09:57.089780
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 62/100 	 train loss 24630.606 	 val loss 25901.261
+Epoch 63/100
+2022-01-25 18:17:01.803344
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 63/100 	 train loss 24616.243 	 val loss 25948.396
+Epoch 64/100
+2022-01-25 18:24:20.108379
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 64/100 	 train loss 24609.440 	 val loss 25985.391
+Epoch 65/100
+2022-01-25 18:31:46.560191
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 65/100 	 train loss 24609.712 	 val loss 25925.310
+Epoch 66/100
+2022-01-25 18:38:47.576449
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 66/100 	 train loss 24632.527 	 val loss 25931.683
+Epoch 67/100
+2022-01-25 18:45:43.453067
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 67/100 	 train loss 24685.098 	 val loss 26140.981
+Epoch 68/100
+2022-01-25 18:52:49.777212
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 68/100 	 train loss 24748.471 	 val loss 26034.775
+Epoch 69/100
+2022-01-25 19:00:29.046928
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 69/100 	 train loss 24738.367 	 val loss 26076.251
+Epoch 70/100
+2022-01-25 19:08:45.309692
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 70/100 	 train loss 24742.304 	 val loss 26103.617
+Epoch 71/100
+2022-01-25 19:17:37.793830
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 71/100 	 train loss 24788.573 	 val loss 26101.214
+Epoch 72/100
+2022-01-25 19:24:34.658334
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 72/100 	 train loss 24810.882 	 val loss 26112.209
+Epoch 73/100
+2022-01-25 19:37:06.812322
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 73/100 	 train loss 24784.761 	 val loss 26054.315
+Epoch 74/100
+2022-01-25 19:52:47.570125
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 74/100 	 train loss 24721.940 	 val loss 26033.743
+Epoch 75/100
+2022-01-25 20:09:50.808467
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 75/100 	 train loss 24711.887 	 val loss 25986.066
+Epoch 76/100
+2022-01-25 20:27:30.339687
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 76/100 	 train loss 24730.840 	 val loss 25888.687
+Epoch 77/100
+2022-01-25 20:47:19.402891
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 77/100 	 train loss 24722.399 	 val loss 25858.692
+Epoch 78/100
+2022-01-25 21:08:44.897728
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 78/100 	 train loss 24690.369 	 val loss 25876.483
+Epoch 79/100
+2022-01-25 21:28:46.066662
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 79/100 	 train loss 24684.700 	 val loss 25943.183
+Epoch 80/100
+2022-01-25 21:48:03.039138
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 80/100 	 train loss 24661.685 	 val loss 25945.192
+Epoch 81/100
+2022-01-25 22:04:44.500977
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 81/100 	 train loss 24638.844 	 val loss 26009.499
+Epoch 82/100
+2022-01-25 22:21:58.510586
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 82/100 	 train loss 24640.267 	 val loss 25999.436
+Epoch 83/100
+2022-01-25 22:38:23.663645
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 83/100 	 train loss 24628.877 	 val loss 26045.755
+Epoch 84/100
+2022-01-25 22:54:34.776520
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 84/100 	 train loss 24623.896 	 val loss 26045.244
+Epoch 85/100
+2022-01-25 23:11:13.991473
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 85/100 	 train loss 24658.976 	 val loss 26162.645
+Epoch 86/100
+2022-01-25 23:30:00.124163
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 86/100 	 train loss 24692.018 	 val loss 26013.852
+Epoch 87/100
+2022-01-25 23:46:48.497017
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 87/100 	 train loss 24726.785 	 val loss 25889.886
+Epoch 88/100
+2022-01-26 00:02:50.006861
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 88/100 	 train loss 24815.497 	 val loss 25996.063
+Epoch 89/100
+2022-01-26 00:21:35.056259
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 89/100 	 train loss 24750.965 	 val loss 25988.973
+Epoch 90/100
+2022-01-26 00:37:57.818154
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 90/100 	 train loss 24678.200 	 val loss 26116.541
+Epoch 91/100
+2022-01-26 00:56:02.013018
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 91/100 	 train loss 24650.881 	 val loss 26273.519
+Epoch 92/100
+2022-01-26 01:10:46.825289
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 92/100 	 train loss 24674.085 	 val loss 26125.851
+Epoch 93/100
+2022-01-26 01:26:51.909377
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 93/100 	 train loss 24683.345 	 val loss 25961.209
+Epoch 94/100
+2022-01-26 01:42:33.576483
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 94/100 	 train loss 24664.021 	 val loss 25914.816
+Epoch 95/100
+2022-01-26 01:58:31.989649
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 95/100 	 train loss 24640.661 	 val loss 25907.932
+Epoch 96/100
+2022-01-26 02:13:29.188965
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 96/100 	 train loss 24622.412 	 val loss 25949.311
+Epoch 97/100
+2022-01-26 02:28:48.037347
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 97/100 	 train loss 24598.650 	 val loss 26086.796
+Epoch 98/100
+2022-01-26 02:43:35.088573
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 98/100 	 train loss 24558.949 	 val loss 26021.812
+Epoch 99/100
+2022-01-26 02:58:07.191783
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 99/100 	 train loss 24518.383 	 val loss 25955.257
+Epoch 100/100
+2022-01-26 03:12:44.576105
+----------
+HBox(children=(HTML(value='train'), FloatProgress(value=0.0, max=33.0), HTML(value='')))
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=6.0), HTML(value='')))
+
+ EPOCH 100/100 	 train loss 24476.169 	 val loss 25942.327
+best_test_loss:  25854.7109375
+/DATA/chowdari1/saved_models/vae/vae_big_nihppr_100ep.pth
+HBox(children=(HTML(value='test'), FloatProgress(value=0.0, max=5.0), HTML(value='')))
+test_loss:  21650.54375
+images added as: ./images/nihppr_100_

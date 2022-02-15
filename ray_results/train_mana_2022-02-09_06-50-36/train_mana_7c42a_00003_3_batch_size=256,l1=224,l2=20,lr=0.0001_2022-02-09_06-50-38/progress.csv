@@ -1,0 +1,2 @@
+score,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,trial_id,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore
+500.0001,0.007191658020019531,False,,,1,7c42a_00003,9a75a4d9140046f092226800eaac85ec,2022-02-09_06-50-39,1644369639,0.007191658020019531,22929,BOSS8-OS,172.25.0.208,0.007191658020019531,0,1

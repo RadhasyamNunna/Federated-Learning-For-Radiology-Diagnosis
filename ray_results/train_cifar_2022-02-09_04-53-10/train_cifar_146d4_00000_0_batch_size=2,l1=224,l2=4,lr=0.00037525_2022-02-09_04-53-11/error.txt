@@ -1,0 +1,32 @@
+Failure # 1 (occurred at 2022-02-09_04-53-13)
+Traceback (most recent call last):
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/trial_runner.py", line 893, in _process_trial
+    results = self.trial_executor.fetch_result(trial)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/ray_trial_executor.py", line 707, in fetch_result
+    result = ray.get(trial_future[0], timeout=DEFAULT_GET_TIMEOUT)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/_private/client_mode_hook.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/worker.py", line 1733, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(TuneError): [36mray::ImplicitFunc.train()[39m (pid=21405, ip=172.25.0.208, repr=train_cifar)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/trainable.py", line 315, in train
+    result = self.step()
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 381, in step
+    self._report_thread_runner_error(block=True)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 532, in _report_thread_runner_error
+    ("Trial raised an exception. Traceback:\n{}".format(err_tb_str)
+ray.tune.error.TuneError: Trial raised an exception. Traceback:
+[36mray::ImplicitFunc.train()[39m (pid=21405, ip=172.25.0.208, repr=train_cifar)
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 262, in run
+    self._entrypoint()
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 331, in entrypoint
+    self._status_reporter.get_checkpoint())
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/ray/tune/function_runner.py", line 600, in _trainable_func
+    output = fn()
+  File "/tmp/ipykernel_27964/3258160144.py", line 2, in train_cifar
+  File "/tmp/ipykernel_27964/1736512985.py", line 6, in __init__
+  File "/tmp/ipykernel_27964/2072872974.py", line 18, in __init__
+  File "/DATA/chowdari1/.local/lib/python3.7/site-packages/torch/cuda/__init__.py", line 214, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available
+
